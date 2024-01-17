@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+
+/* Tabelle */
+.manschafts-liste {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  -ms-grid-row-span: left;
+}
+
+.manschafts-liste thead {
+  text-align: center; /* color: red; */
+}
+
+.name-col {
+  color: red;
+  text-align: left;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+}
+
+.navbar-left {
+  width: 100%;
+  background-color: red; 
+  padding: 10px;
+}
+
+.navbar-right {
+  width: 100%;
+  background-color: white; 
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+}
